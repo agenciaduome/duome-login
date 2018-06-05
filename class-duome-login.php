@@ -46,6 +46,7 @@ class Duome_Login {
 			'login' => array(),
 		);
 
+		add_action( 'init', array( $this, 'load_textdomain' ) );
 		add_action( 'init', array( $this, 'login' ) );
 
 		add_action( 'duome_login_errors', array( $this, 'show_errors' ) );
@@ -53,6 +54,13 @@ class Duome_Login {
 		if ( is_admin() ) {
 			require_once DUOME_LOGIN_DIR . '/admin/class-duome-login-admin.php';
 		}
+	}
+
+	/**
+	 * Load the translation file.
+	 */
+	public function load_textdomain() {
+		load_plugin_textdomain( 'duome-login', false, basename( DUOME_LOGIN_DIR ) . '/languages/' );
 	}
 
 	/**

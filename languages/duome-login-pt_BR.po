@@ -1,0 +1,54 @@
+# Copyright (C) 2018 Custom Login (by duo.me)
+# This file is distributed under the same license as the Custom Login (by duo.me) package.
+msgid ""
+msgstr "Project-Id-Version: Custom Login (by duo.me) 1.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/duome-login\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2018-06-05T15:00:41-03:00\n"
+"PO-Revision-Date: 2018-06-05T15:00:41-03:00\n"
+"X-Domain: duome-login\n"
+
+#: class-duome-login.php:76
+msgid "All fields are required."
+msgstr "Todos os campos são obrigatórios."
+
+#: admin/class-duome-login-admin.php:45
+msgid "Frontend Login and Register Settings"
+msgstr "Configurações de acesso e registro pelo frontend"
+
+#: admin/class-duome-login-admin.php:46
+msgid "Login and register"
+msgstr "Acesso e registro"
+
+#: admin/class-duome-login-admin.php:88
+#: admin/class-duome-login-admin.php:139
+msgid "Settings"
+msgstr "Configurações"
+
+#: admin/class-duome-login-admin.php:95
+msgid "After login redirect to:"
+msgstr "Depois de acessar redirecionar para:"
+
+#. Plugin Name of the plugin
+msgid "Custom Login (by duo.me)"
+msgstr "Login personalizado (por duo.me)"
+
+#. Plugin URI of the plugin
+msgid "https://github.com/agenciaduome/duome-login"
+msgstr ""
+
+#. Description of the plugin
+msgid "For customizable frontend login forms."
+msgstr "Para formulários de acesso pelo frontend personalizáveis."
+
+#. Author of the plugin
+msgid "duo.me"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://agenciaduo.me/"
+msgstr ""
