@@ -86,7 +86,12 @@ class Duome_Login {
 				$user = wp_signon( $creds, true );
 				if ( isset( $user->ID ) && '' != $user->ID ) {
 					wp_set_auth_cookie( $user->ID, $remember );
-					wp_redirect( $this->plugin_settings['redirect_after_login'] );
+					if ( ! empty( $_POST['duome_login_redirect_to'] ) ) {
+						$redirect = $_POST['duome_login_redirect_to'];
+					} else {
+						$redirect = $this->plugin_settings['redirect_after_login'];
+					}
+					wp_redirect( $redirect );
 					exit;
 				} else {
 					$this->errors['login'] = (array) $user->get_error_message();

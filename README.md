@@ -9,3 +9,4 @@ This is a duo.me WordPress plugin for frontend custom login. Call the fields bel
 - Password input with `name="duome_login_password"`.
 - Show messages with `<?php do_action( 'duome_login_errors', 'login' ); ?>`
 - Optional remember checkbox with `name="duome_login_remember"` and `value="1"`.
+- Optional redirect page through a hidden input with `name="duome_login_redirect_to"`.
